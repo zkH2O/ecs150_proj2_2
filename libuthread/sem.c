@@ -9,7 +9,7 @@ struct semaphore {
         /* TODO Phase 3 */
 	size_t count;           
 	queue_t waitingQueue;
-	queue_t wakeupQueue
+	queue_t wakeupQueue;
 };
 
 sem_t sem_create(size_t count)

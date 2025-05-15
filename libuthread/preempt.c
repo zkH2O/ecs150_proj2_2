@@ -40,6 +40,7 @@ void preempt_disable(void)
 
 void preempt_enable(void)
 {
+        /* TODO Phase 4 */
 	if (!preemptEnabled)
 		return;
 	
